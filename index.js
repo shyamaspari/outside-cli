@@ -1,4 +1,5 @@
 const minimist = require('minimist')
+const error = require('./utils/error')
 
 module.exports = () => {
   const args = minimist(process.argv.slice(2))
@@ -28,7 +29,7 @@ switch(cmd){
   break
 
   default:
-  console.error(`"${cmd}" is not a valid command!`);
-  break
+       error(`"${cmd}" is not a valid command!`, true)
+       break
 }
 }

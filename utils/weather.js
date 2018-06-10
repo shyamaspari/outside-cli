@@ -10,6 +10,6 @@ module.exports = async (location) => {
         (select woeid from geo.places(1) where text="${location}")`,
     },
   })
-  console.log("results:"+JSON.stringify(results.data.query.results.channel.item))
+
   return results.data.query.results.channel.item
 }
