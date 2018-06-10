@@ -1,0 +1,19 @@
+{
+  "name": "outside-cli",
+  "version": "1.0.0",
+  "description": "create cli interface to perform some basic action using nod and java script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "outside": "bin/outside.bat"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "minimist": "^1.2.0",
+    "ora": "^2.1.0"
+  }
+}
