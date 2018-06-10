@@ -3,14 +3,27 @@
   "version": "1.0.0",
   "description": "A CLI app that gives you the weather forecast",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homePage":"https://github.com/shyamaspari/outside-cli#readme",
+  "repository":{
+    "type":"git",
+    "url":"git+https://github.com/shyamaspari/outside-cli.git"
   },
-  "author": "",
-  "license": "ISC",
+  "engines":{
+    "node":">=8"
+  },
+  "keywords":[
+    "weather",
+    "forecast",
+    "rain"
+  ],
+  "preferGlobal":true,
+  "scripts": {},
+  "author": "shyam kumar pasupula",
+  "license": "MIT",
   "bin": {
     "outside": "bin/outside.bat"
   },
+  "devDependencies":{},
   "dependencies": {
     "axios": "^0.18.0",
     "minimist": "^1.2.0",
